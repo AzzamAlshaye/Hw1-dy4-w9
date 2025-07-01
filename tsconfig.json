@@ -5,7 +5,7 @@
     "module": "commonjs",
     "lib": ["es2020"],
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",                // نترك الجذر للمشروع
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -15,6 +15,6 @@
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*"],        // كل كود الـTS تحت src
   "exclude": ["node_modules", "dist"]
 }

@@ -15,3 +15,11 @@
 {"level":"info","message":"POST /api/car/01JY0M0QB1WMV9MMPV6K4PY5F8/01JY0M18T05A681GVJ1C3Z7V7T2 400 346 - 5.065 ms","timestamp":"2025-07-01T15:06:58.934Z"}
 {"level":"info","message":"GET /api/car 200 26 - 370.579 ms","timestamp":"2025-07-01T15:07:18.156Z"}
 {"level":"info","message":"GET /api/car/getCarsByDealer/01JY0M0QB1WMV9MMPV6K4PY5F8 400 175 - 4.228 ms","timestamp":"2025-07-01T15:07:26.956Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-07-01T15:53:43.741Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2025-07-01T15:53:43.756Z"}
+{"level":"info","message":"GET / 200 39 - 3.741 ms","timestamp":"2025-07-01T16:11:22.422Z"}
+{"level":"info","message":"GET / 200 39 - 0.683 ms","timestamp":"2025-07-01T16:11:39.138Z"}
+{"level":"info","message":"GET /loginMsg.js 404 150 - 2.495 ms","timestamp":"2025-07-01T16:11:39.161Z"}
+{"level":"info","message":"GET /cgi/get.cgi?cmd=home_login 404 150 - 1.381 ms","timestamp":"2025-07-01T16:11:39.184Z"}
+{"level":"info","message":"GET /rootDesc.xml 404 151 - 0.453 ms","timestamp":"2025-07-01T16:11:46.779Z"}
+{"level":"info","message":"POST /boaform/admin/formPing 404 162 - 33.171 ms","timestamp":"2025-07-01T16:11:46.843Z"}
