@@ -6,7 +6,6 @@ import { Request, Response } from "express"
 
 export const getAllCarDealers = async (req: Request, res: Response): Promise<void> => {
     try {
-    // const carDealerList = CarDealerStore.findAll()
     
     const carDealerList = await Dealer.find()
     res.status(200).json({success:true, data:carDealerList})
