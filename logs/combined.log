@@ -1,0 +1,17 @@
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","message":"MongoDB connection error: bad auth : authentication failed","ok":0,"stack":"MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\connection.ts:559:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\connection.ts:633:22)\n    at async continueScramConversation (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\auth\\scram.ts:187:13)\n    at async executeScram (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\auth\\scram.ts:114:3)\n    at async ScramSHA1.auth (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\auth\\scram.ts:60:12)\n    at async performInitialHandshake (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\connect.ts:164:7)\n    at async connect (C:\\Users\\Lenovo\\Desktop\\W1-Day4-W9\\node_modules\\mongodb\\src\\cmap\\connect.ts:43:5)","timestamp":"2025-07-01T14:54:50.964Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-07-01T14:57:41.363Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2025-07-01T14:57:41.379Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-07-01T14:59:51.180Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2025-07-01T14:59:51.197Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-07-01T15:02:38.733Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2025-07-01T15:02:38.746Z"}
+{"level":"info","message":"POST /api/car-dealer/ 201 205 - 392.440 ms","timestamp":"2025-07-01T15:04:30.016Z"}
+{"level":"info","message":"GET /api/car-dealer/ 200 1094 - 322.159 ms","timestamp":"2025-07-01T15:04:37.611Z"}
+{"level":"info","message":"GET /api/car-dealer/01JY0NJSY2V38PBA3AGKHCGRXZ 400 168 - 7.044 ms","timestamp":"2025-07-01T15:05:28.608Z"}
+{"level":"info","message":"GET /api/car-dealer/01JY0NJSY2V38PBA3AGKHCGRXZ 400 168 - 3.851 ms","timestamp":"2025-07-01T15:05:54.510Z"}
+{"level":"info","message":"GET /api/car-dealer/01JY0NJSY2V38PBA3AGKHCGRXZ 400 168 - 3.201 ms","timestamp":"2025-07-01T15:06:22.696Z"}
+{"level":"info","message":"POST /api/car-make 201 179 - 351.021 ms","timestamp":"2025-07-01T15:06:43.502Z"}
+{"level":"info","message":"POST /api/car/01JY0M0QB1WMV9MMPV6K4PY5F8/01JY0M18T05A681GVJ1C3Z7V7T2 400 346 - 8.638 ms","timestamp":"2025-07-01T15:06:51.222Z"}
+{"level":"info","message":"POST /api/car/01JY0M0QB1WMV9MMPV6K4PY5F8/01JY0M18T05A681GVJ1C3Z7V7T2 400 346 - 5.065 ms","timestamp":"2025-07-01T15:06:58.934Z"}
+{"level":"info","message":"GET /api/car 200 26 - 370.579 ms","timestamp":"2025-07-01T15:07:18.156Z"}
+{"level":"info","message":"GET /api/car/getCarsByDealer/01JY0M0QB1WMV9MMPV6K4PY5F8 400 175 - 4.228 ms","timestamp":"2025-07-01T15:07:26.956Z"}

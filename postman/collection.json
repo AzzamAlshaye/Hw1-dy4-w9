@@ -1,0 +1,503 @@
+{
+	"info": {
+		"_postman_id": "7af618c8-2a54-4dc1-9924-430bf107a2b3",
+		"name": "Car-Dealer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30565514",
+		"_collection_link": "https://express-collection.postman.co/workspace/a9b7f980-9942-481a-988a-c6d4753c3e0d/collection/30565514-7af618c8-2a54-4dc1-9924-430bf107a2b3?action=share&source=collection_link&creator=30565514"
+	},
+	"item": [
+		{
+			"name": "DEALER",
+			"item": [
+				{
+					"name": "CREATE DEALER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"ddd\",\r\n    \"email\":\"a@sd.cpm\",\r\n    \"city\":\"riyadh\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car-dealer/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-dealer",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL DEALERS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-dealer/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-dealer",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET DEALER BY ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-dealer/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-dealer",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NJSY2V38PBA3AGKHCGRXZ"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE DEALER BY ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Ahmed For Cars\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car-dealer/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-dealer",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NJSY2V38PBA3AGKHCGRXZ"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE DEALER BY ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-dealer/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-dealer",
+								":id"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NJSY2V38PBA3AGKHCGRXZ"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CAR MAKE",
+			"item": [
+				{
+					"name": "CREATE CAR MAKE",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"brand\":\"Toyota\",\r\n    \"country\":\"Japan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car-make",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-make"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CAR MAKES",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-make",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-make"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET CAR MAKE BY ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-make/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-make",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NNJJE74MC57ED3B43A6BW"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE CAR MAKE BY ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"country\": \"China\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car-make/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-make",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NNJJE74MC57ED3B43A6BW"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE CAR MAKE BY ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car-make/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car-make",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NNJJE74MC57ED3B43A6BW"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CAR",
+			"item": [
+				{
+					"name": "CREATE CAR",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Camrey\",\r\n    \"color\":\"white\",\r\n    \"price\":98000,\r\n    \"year\":2025\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car/:dealerId/:carMakeId",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								":dealerId",
+								":carMakeId"
+							],
+							"variable": [
+								{
+									"key": "dealerId",
+									"value": "01JY0M0QB1WMV9MMPV6K4PY5F8"
+								},
+								{
+									"key": "carMakeId",
+									"value": "01JY0M18T05A681GVJ1C3Z7V7T2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CARS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CARS BY DEALER ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car/getCarsByDealer/:dealerId",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								"getCarsByDealer",
+								":dealerId"
+							],
+							"variable": [
+								{
+									"key": "dealerId",
+									"value": "01JY0M0QB1WMV9MMPV6K4PY5F8"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CARS BY CAR MAKE ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car/getCarsByMake/:carMakeId",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								"getCarsByMake",
+								":carMakeId"
+							],
+							"variable": [
+								{
+									"key": "carMakeId",
+									"value": "01JY0M18T05A681GVJ1C3Z7V7T2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET CAR ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NANQW0KAANNR68HEGEZRJ"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE CAR BY ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\":100000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/car/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NANQW0KAANNR68HEGEZRJ"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE CAR BY ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/car/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"car",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "01JY0NANQW0KAANNR68HEGEZRJ"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
