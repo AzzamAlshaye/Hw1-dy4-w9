@@ -23,3 +23,5 @@
 {"level":"info","message":"GET /cgi/get.cgi?cmd=home_login 404 150 - 1.381 ms","timestamp":"2025-07-01T16:11:39.184Z"}
 {"level":"info","message":"GET /rootDesc.xml 404 151 - 0.453 ms","timestamp":"2025-07-01T16:11:46.779Z"}
 {"level":"info","message":"POST /boaform/admin/formPing 404 162 - 33.171 ms","timestamp":"2025-07-01T16:11:46.843Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-07-01T16:14:04.813Z"}
+{"level":"info","message":"Server listening on port 5000","timestamp":"2025-07-01T16:14:04.826Z"}
