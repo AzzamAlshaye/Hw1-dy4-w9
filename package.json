@@ -3,12 +3,12 @@
   "name": "w1-day4-w9",
   "version": "1.0.0",
   "description": "Car Dealer API built with TypeScript and Express",
-  "main": "dist/index.js",
+  "main": "dist/app.js",               
   "type": "commonjs",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts"
+    "build": "tsc",                     
+    "start": "node dist/app.js",        
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/app.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
